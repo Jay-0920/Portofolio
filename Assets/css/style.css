@@ -1,0 +1,108 @@
+/*
+    html tag
+    Reason: create position as relative for the footer
+*/
+html {
+    position: relative; 
+    min-height: 100%;
+}
+
+/*
+    body tag
+    Reason: Change The Color Of The Whole Body
+*/
+body { 
+background-color: aliceblue;
+}
+
+/* 
+    Form Tag
+    Reason: To Add A margin To The Forms for the footer
+*/
+form{
+    margin-bottom: 150px;
+}
+
+.footerMargin{
+    margin-bottom: 150px;
+}
+
+/*Reason: Give a margin space to the header*/
+header{
+    margin-bottom: 20px;
+}
+
+/* 
+    input tags
+    Reason: Modify input tag background colors
+*/
+input[type="text"], input[type="email"], textarea.form-control {
+    background-color: lightgrey;
+}
+
+/*
+    footer class
+    Reason: class to position footer to the bottom
+*/
+.footer {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: grey;
+
+/*
+    foor class p tag
+    Reason: Used To Center the Bottom Footer
+*/
+}
+
+.footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 
+    Jumbotron class
+    Reason: Modify bootstrap jumbotron class background color
+*/
+.jumbotron{
+    background-color: grey;
+    margin-bottom: 150px;
+}
+
+
+/* 
+    nameHighlight class
+    Reason: Highlight the Name of the NavBar Subject
+*/
+.nameHighlight{
+    background-color: limegreen;
+    width: 200px;
+    border-radius: 30px;
+}
+
+/* 
+    navBackground class
+    Reason: Change The Background Color Of The Navbar
+*/
+.navBackground{
+    background-color: grey;
+}
+
+/* 
+    limeGreen Class
+    Reason: Change the background activity of any item with the class
+*/
+.limeGreen{
+    background-color: limegreen;
+} 
+
+/* 
+    card class
+    Reason: To add a backgrouind color to the card class and seperate cards
+*/
+.card{
+    margin-top: 10px;
+    background-color: limegreen;
+}
